@@ -1,0 +1,10 @@
+class Rectangle:
+  def area(self, L, B):
+    print(L * B)
+  def perimeter(self, L, B):
+    print(2 *(L + B))
+
+r = Rectangle()
+
+r.area(10, 5)
+r.perimeter(10, 5)
