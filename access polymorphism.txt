@@ -1,0 +1,14 @@
+class Person:
+    def Rahul(self):
+        print("Cooking")
+
+    def Preeti(self):
+        print("Cleaning")
+
+    def work(self):
+        self.Rahul()
+        self.Preeti()
+
+
+p = Person()
+p.work()
