@@ -1,0 +1,25 @@
+class Demo:
+  A = 1
+  B = 2
+
+  def display(self):
+    C = 3
+    print(self.A, self.B, C)
+
+class Sample(Demo):
+  C = 3
+  D = 4
+
+  def show(self):
+    E = 5
+    print(self.C, self.D, E)
+
+S1 = Sample()
+
+print(S1.A)
+print(S1.B)
+print(S1.C)
+print(S1.D)
+
+S1.display()
+S1.show()
