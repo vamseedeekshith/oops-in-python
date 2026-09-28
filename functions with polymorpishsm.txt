@@ -1,0 +1,19 @@
+class Vamsee:
+    def exam(self):
+        print("result: 70")
+
+
+class Yenosh:
+    def exam(self):
+        print("result: 80")
+
+
+def result(self):
+    self.exam()
+
+
+std = Vamsee()
+std1 = Yenosh()
+
+result(std)
+result(std1)
