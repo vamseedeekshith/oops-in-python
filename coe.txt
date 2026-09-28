@@ -1,0 +1,30 @@
+class student:
+    name =" kprit "
+    age =15
+def read(self):
+    age = 20 
+    print (self, age)
+    print("reading")
+def write (Self):
+    print("Writing")
+s1 = student()
+print(s1, "name")
+print(s1, "age")
+s1.read()
+s1.write()
+
+class number:
+    def addition(Self, a, b):
+        print(a + b)
+    def subtraction(Self, a, b):
+        print(a - b)
+    def multiply(Self, a, b):
+        print(a*a)
+        print(a*b)
+
+
+
+        n = number()
+        n.addition (10, 20)
+        n.subtraction (40, 10)
+        n.multiply(3,10)
